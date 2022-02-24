@@ -183,7 +183,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(5000)
         start = time.time()
-        sorted_list = binary_search_recursive(mylist, -1)
+        sorted_list = binary_search_recursive(mylist, 99999999)
         time_spent = time.time() - start
         total_time_binary_search_recursive5000 += time_spent
     avg_time = total_time_binary_search_recursive5000 / 100
