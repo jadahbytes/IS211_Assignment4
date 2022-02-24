@@ -69,7 +69,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(500)
         start = time.time()
-        sorted_list = sequential_search(mylist, -1)
+        sorted_list = sequential_search(mylist, 99999999)
         time_spent = time.time() - start
         total_time_sequential_search500 += time_spent
     avg_time = total_time_sequential_search500 / 100
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(1000)
         start = time.time()
-        sorted_list = sequential_search(mylist, -1)
+        sorted_list = sequential_search(mylist, 99999999)
         time_spent = time.time() - start
         total_time_sequential_search1000 += time_spent
     avg_time = total_time_sequential_search1000 / 100
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(5000)
         start = time.time()
-        sorted_list = sequential_search(mylist, -1)
+        sorted_list = sequential_search(mylist, 99999999)
         time_spent = time.time() - start
         total_time_sequential_search5000 += time_spent
     avg_time = total_time_sequential_search5000 / 100
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(500)
         start = time.time()
-        sorted_list = ordered_sequential_search(mylist, -1)
+        sorted_list = ordered_sequential_search(mylist, 99999999)
         time_spent = time.time() - start
         total_time_ordered_sequential_search500 += time_spent
     avg_time = total_time_ordered_sequential_search500 / 100
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(1000)
         start = time.time()
-        sorted_list = ordered_sequential_search(mylist, -1)
+        sorted_list = ordered_sequential_search(mylist, 99999999)
         time_spent = time.time() - start
         total_time_ordered_sequential_search1000 += time_spent
     avg_time = total_time_ordered_sequential_search1000 / 100
@@ -121,7 +121,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(5000)
         start = time.time()
-        sorted_list = ordered_sequential_search(mylist, -1)
+        sorted_list = ordered_sequential_search(mylist, 99999999)
         time_spent = time.time() - start
         total_time_ordered_sequential_search5000 += time_spent
     avg_time = total_time_ordered_sequential_search5000 / 100
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(500)
         start = time.time()
-        sorted_list = binary_search_iterative(mylist, -1)
+        sorted_list = binary_search_iterative(mylist, 99999999)
         time_spent = time.time() - start
         total_time_binary_search_iterative500 += time_spent
     avg_time = total_time_binary_search_iterative500 / 100
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(1000)
         start = time.time()
-        sorted_list = binary_search_iterative(mylist, -1)
+        sorted_list = binary_search_iterative(mylist, 99999999)
         time_spent = time.time() - start
         total_time_binary_search_iterative1000 += time_spent
     avg_time = total_time_binary_search_iterative1000 / 100
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(5000)
         start = time.time()
-        sorted_list = binary_search_iterative(mylist, -1)
+        sorted_list = binary_search_iterative(mylist, 99999999)
         time_spent = time.time() - start
         total_time_binary_search_iterative5000 += time_spent
     avg_time = total_time_binary_search_iterative5000 / 100
@@ -163,7 +163,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(500)
         start = time.time()
-        sorted_list = binary_search_recursive(mylist, -1)
+        sorted_list = binary_search_recursive(mylist, 99999999)
         time_spent = time.time() - start
         total_time_binary_search_recursive500 += time_spent
     avg_time = total_time_binary_search_recursive500 / 100
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     for i in range(100):
         mylist = get_me_random_list(1000)
         start = time.time()
-        sorted_list = binary_search_recursive(mylist, -1)
+        sorted_list = binary_search_recursive(mylist, 99999999)
         time_spent = time.time() - start
         total_time_binary_search_recursive1000 += time_spent
     avg_time = total_time_binary_search_recursive1000 / 100
